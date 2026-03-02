@@ -7,10 +7,10 @@ class Pfauterminal < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/andreypfau/pfauterminal/releases/download/v0.1.1/pfauterminal-macos-aarch64.tar.gz"
-      sha256 "c2219776547fc5fedac9e37dbc275b6b618c4f0b34533ce09d938f373b3bce01"
+      sha256 "463fb4d7600101c106c8f68e102377fe690a24e3b22df1ab324e68d40b45a11c"
     elsif Hardware::CPU.intel?
       url "https://github.com/andreypfau/pfauterminal/releases/download/v0.1.1/pfauterminal-macos-x86_64.tar.gz"
-      sha256 "2cd9b82b3d1eb9e430139ab7c2b6579788a9c419a1ec11f620f4e86c12975f65"
+      sha256 "53c315ed82b0847abd175ac0ba512e11de4f7a66c410e369b7a293deb71bb7f7"
     end
   end
 

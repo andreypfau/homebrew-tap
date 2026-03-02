@@ -1,6 +1,6 @@
 cask "pfauterminal" do
   version "0.1.1"
-  sha256 "33f9a8ba79d9e66cd952968d68d50abc8830e20274334b3b31195bc365dea406"
+  sha256 "5f2befe546d9536279175710f0d738dad52cedcedb0bca49fa56cedfb52e69a7"
 
   url "https://github.com/andreypfau/pfauterminal/releases/download/v0.1.1/pfauterminal-macos-app.zip"
   name "PfauTerminal"
