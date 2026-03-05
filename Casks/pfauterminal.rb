@@ -1,8 +1,8 @@
 cask "pfauterminal" do
-  version "0.2.1"
-  sha256 "572d94599e0162c9a99c39feb53615f8b19d610e9c5bb7e2d7150766b0769f18"
+  version "0.2.2"
+  sha256 "fdc5d51c66dd2d300786fc1f4233daf20864749728585ee7c966e44597eb0359"
 
-  url "https://github.com/andreypfau/pfauterminal/releases/download/v0.2.1/pfauterminal-macos-app.zip"
+  url "https://github.com/andreypfau/pfauterminal/releases/download/v0.2.2/pfauterminal-macos-app.zip"
   name "PfauTerminal"
   desc "A modern GPU-accelerated terminal emulator"
   homepage "https://github.com/andreypfau/pfauterminal"
