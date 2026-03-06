@@ -1,16 +1,16 @@
 class Pfauterminal < Formula
   desc "A modern GPU-accelerated terminal emulator"
   homepage "https://github.com/andreypfau/pfauterminal"
-  version "0.2.3"
+  version "0.2.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/andreypfau/pfauterminal/releases/download/v0.2.3/pfauterminal-macos-aarch64.tar.gz"
-      sha256 "d2f6e307c5c97fa3ac1693f3a83062aaf47c9026236604d55a24d84129c90269"
+      url "https://github.com/andreypfau/pfauterminal/releases/download/v0.2.4/pfauterminal-macos-aarch64.tar.gz"
+      sha256 "3f52c57624281e93d62fecebc6cfe193924384fe1dddd696d23fb215fce6a7ca"
     elsif Hardware::CPU.intel?
-      url "https://github.com/andreypfau/pfauterminal/releases/download/v0.2.3/pfauterminal-macos-x86_64.tar.gz"
-      sha256 "ad1297817689cbc2dce19f7800f496e9f2dc8aacc695559fee5584e12ca3ff6b"
+      url "https://github.com/andreypfau/pfauterminal/releases/download/v0.2.4/pfauterminal-macos-x86_64.tar.gz"
+      sha256 "146bdf84b52bc4a8e650b15588aab796fdb3b638882fb604c65a520bc3a67d0b"
     end
   end
 
